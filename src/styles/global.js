@@ -62,5 +62,26 @@ const GlobalStyles = createGlobalStyle`
   	width: 100%;
   	height: auto;
   }
+  body.dark {
+    --borders: #333333;
+    --texts: #8899a6;
+    --postColor: #fff;
+    --highlight: #9708cc;
+    --mediumBackground: #1f1f1f;
+    --background: #111;
+    --white: #fff;
+    --black: #222;
+  }
+  body.light {
+    --borders: #dedede;
+    --postColor: #111;
+    --texts: #555555;
+    --highlight: #9708cc;
+    --mediumBackground: #f0f0f3;
+    --background: #fff;
+    --white: #fff;
+    --black: #222;
+  }
+ 
 `
 export default GlobalStyles
