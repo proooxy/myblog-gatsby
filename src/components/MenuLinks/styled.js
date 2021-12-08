@@ -1,7 +1,14 @@
 import styled from 'styled-components';
 import { Link } from 'gatsby';
+import media from "styled-media-query"
 
-export const MenuLinksWrapper = styled.nav`
+export const MenuLinksWrapper = styled.nav` 
+
+${media.lessThan("large")`
+    display: none;
+  `}
+
+
 
   
 `;
